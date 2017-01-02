@@ -14,12 +14,6 @@ class App extends Component {
           <Post />
           <Post />
           <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
         </div>
       </div>
     );

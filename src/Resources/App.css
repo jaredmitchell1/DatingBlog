@@ -13,9 +13,9 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 50px;
-  padding: 20px;
+  background-color: #444;
+  line-height: 10px;
+  font-size: 30px;
   color: white;
   position: fixed;
   left: 0;
@@ -26,11 +26,22 @@
   font-size: large;
   padding: 25px;
   overflow-y: scroll;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
-.article {
-  background: grey;
-  margin: 50px;
-  padding: 10px 20px;
+.post-container {
+  margin: 50px 200px;
+}
+
+.post-title {
+  font-size: 28px;
+  text-align: left;
+  padding: 5px 15px;
+}
+
+.post-body {
+  background: #f1f1f1;
+  padding: 20px 30px;
+  font-size: 16px;
+  line-height: 25px;
 }
