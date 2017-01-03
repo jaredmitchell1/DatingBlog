@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
 export default class Post extends Component {
-  constructor() {
+  constructor(article) {
     super();
-    this.title = "The dangers of dating";
-    this.body = "This is a sample sentence that we like is good. ".repeat(50);
+    this.title = article.title;
+    this.body = article.body.split("<br>").map(function(item) {
+      return <div>{item}</div>
+    });
   }
   render() {
     return (

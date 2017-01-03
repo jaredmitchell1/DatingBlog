@@ -12,7 +12,7 @@
   height: 80px;
 }
 
-.App-header {
+.header-container {
   background-color: #444;
   line-height: 10px;
   font-size: 30px;
@@ -20,23 +20,28 @@
   position: fixed;
   left: 0;
   right: 0;
+  padding-bottom: 20px;
+}
+
+.header-subtitle {
+  font-size: 25px;
 }
 
 .App-body {
   font-size: large;
-  padding: 25px;
+  padding: 50px 25px;
   overflow-y: scroll;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .post-container {
   margin: 50px 200px;
+  text-align: left;
 }
 
 .post-title {
   font-size: 28px;
-  text-align: left;
-  padding: 5px 15px;
+  padding-bottom: 12px;
 }
 
 .post-body {
@@ -44,4 +49,12 @@
   padding: 20px 30px;
   font-size: 16px;
   line-height: 25px;
+}
+
+.post-body div {
+  padding-bottom: 20px;
+}
+
+.post-body div:last-child {
+  padding-bottom: 0;
 }
